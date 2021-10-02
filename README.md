@@ -7,4 +7,4 @@ O site carrega o feed do meu Instagram porque tenho acesso ao mesmo. Para carreg
 O app funciona utilizando request GET em Javascript com AJAX para obter o JSON contido no site. Ademais, o site usa o Instagram API, que requere o Instagram Access Token para o código funcionar. por fim, há estratégias de design que podem ser vistos nos arquivos neste repositório.
 
 ## Resultado Final
-Resultado: https://squid-marketing.onrender.com
+Resultado: https://jessedeveloperinvestor.github.io/Squid_marketing/
