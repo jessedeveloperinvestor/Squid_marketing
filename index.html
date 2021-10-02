@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Squid Instagram Feed</title>
+    <meta name="description" content="Squid Instagram Feed">
+    <meta name="author" content="Squidapp">
+    <link rel="stylesheet" href="styles.css?v=1.0">
+    <style type="text/css">
+    a img{ 
+      width: 16%;
+    }
+    </style>
+  </head>
+  <body>
+    <script src="scripts.js"></script>
+
+    <img src='assets/logo.svg' class="center"></img>
+    <h1></h1>
+    <div id="instafeed-container" class="center2"></div>
+    <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+    <script type="text/javascript" class='images'>
+    var userFeed = new Instafeed({
+      get: 'user',
+      target: "instafeed-container",
+        resolution: 'low_resolution',
+      accessToken: 'IGQVJYREFEUS1MbFo1bXdtV0R1WDhKVVJnVkZAhTkxOakN4ajZAEaEFSOWdTNTdKVTgybHFRSVJUWk9KbG9OM3F2RE9ET2JsaFVDcGxrWTFZAX1g4dlNnZADJsTzNKTmM4S3A4dlBMZAm5DbEJYQ2p2c1FBdwZDZD'
+    });
+    userFeed.run();
+    </script>
+  </body>
+</html>
