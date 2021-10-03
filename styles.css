@@ -57,7 +57,7 @@ figcaption p {
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
 }
-.hover-animation img.img-back:hover{
+.hover-animation img.img-front:hover{
   opacity:0;
   cursor: pointer;
 }
