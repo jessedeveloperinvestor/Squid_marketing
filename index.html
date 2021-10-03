@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
     <title>Squid Instagram Feed</title>
-    <meta name="description" content="Squid Instagram Feed @squidapp">
+    <meta name="description" content="Squid Instagram Feed">
     <meta name="author" content="Squidapp">
     <link rel="stylesheet" href="styles.css?v=1.0">
     <style type="text/css">
@@ -20,7 +20,7 @@
     <h1></h1>
     <div id="instafeed-container" class="center2"></div>
 
-    <!-- <div class="wrapper">
+    <div class="wrapper">
   <figure>
     <div class="hover-animation">
       <img class="img-back" src="background.svg" alt="">
@@ -42,11 +42,11 @@
     </div>
 
   </figure>
-</div> -->
+</div>
 
     <div class="hover-animation">
       <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
-      <script class="img-front" type="text/javascript/images" class='images'>
+      <script class="img-back" type="text/javascript/images" class='images'>
       var userFeed = new Instafeed({
         get: 'user',
         target: "instafeed-container",
@@ -55,7 +55,7 @@
       });
       userFeed.run();
       </script>
-      <img class="img-back" src="assets/output.jpg" alt="">
+      <img class="img-front" src="assets/output.jpg" alt="">
     </div>
   </body>
 </html>
