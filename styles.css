@@ -13,14 +13,39 @@ body {
   margin-right: auto;
   width: 60%;
 }
-.wrapper {
-  width: 100px;
+.wrapper{
+  width: 1170px;
   margin: 0 auto;
 }
 figure {
   width: 32%;
   float: left;
   margin: 0;
+}
+figcaption {
+  text-align: center;
+}
+figcaption h2 {
+  text-transform: uppercase;
+  margin: 15px 0;
+  font-family: "Poppins ExtraBold";
+}
+figcaption p {
+  width: 90%;
+  margin: auto;
+  font-size: 18px;
+  font-family: roboto;
+  letter-spacing: 2px;
+}
+figcaption a {
+  background: tomato;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 30px;
+  letter-spacing: 3px;
 }
 .hover-animation {
   position: relative;
@@ -30,6 +55,7 @@ figure {
   color: #fff;
   box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
 }
+
 .hover-animation img {
   position: absolute;
   left: 0;
