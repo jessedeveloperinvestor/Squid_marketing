@@ -37,16 +37,6 @@ figcaption p {
   font-family: roboto;
   letter-spacing: 2px;
 }
-figcaption a {
-  background: tomato;
-  text-decoration: none;
-  color: #fff;
-  text-transform: uppercase;
-  display: inline-block;
-  margin-top: 15px;
-  padding: 10px 30px;
-  letter-spacing: 3px;
-}
 .hover-animation {
   position: relative;
   height: 350px;
