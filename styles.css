@@ -40,7 +40,7 @@ figcaption p {
   letter-spacing: 2px;
 }
 .hover-animation {
-  position: relative;
+  position: absolute;
   height: 350px;
   width: 350px;
   margin: 10% auto 0;
