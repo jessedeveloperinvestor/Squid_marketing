@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="pt-br">
   <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <meta charset="utf-8">
     <title>Squid Instagram Feed</title>
-    <meta name="description" content="Squid Instagram Feed Jesse Dev">
+    <meta name="description" content="Squid Instagram Feed ready">
     <meta name="author" content="Squidapp">
     <link rel="stylesheet" href="styles.css?v=1.0">
     <style type="text/css">
@@ -19,9 +19,16 @@
     <img src='assets/logo.svg' class="center"></img>
     <h1></h1>
     <div id="instafeed-container" class="center2"></div>
-
-    <script> src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
-    <script type="text/javascript/images" class='images'>
+    <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+    <script type="text/javascript" class='images'>
+      <div class='hover'>
+        <h1>@squidapp</h1>
+        <p>
+          <a href='#'><i class="fa fa-heart" aria-hidden="true"></i></a>
+          <a href='#'><i class="fa fa-comments-o" aria-hidden="true"></i></a>
+          <a href='#'><i class="fa fa-calendar" aria-hidden="true"></i></a>
+        </p>
+      </div>
     var userFeed = new Instafeed({
       get: 'user',
       target: "instafeed-container",
