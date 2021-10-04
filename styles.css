@@ -47,7 +47,7 @@ figcaption p {
 }
 
 .hover-animation img {
-  position: absolute;
+  position: relative;
   left: 0;
   width: 350px;
   height: 350px;
