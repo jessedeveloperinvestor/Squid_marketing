@@ -13,7 +13,7 @@ body {
   margin-right: auto;
   width: 60%;
 }
-.wrapper{
+/* .wrapper{
   width: 1170px;
   margin: 0 auto;
 }
@@ -58,4 +58,4 @@ figcaption p {
 .hover-animation img.img-front:hover{
   opacity:0;
   cursor: pointer;
-}
+} */
