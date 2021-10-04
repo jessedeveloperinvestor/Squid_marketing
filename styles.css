@@ -2,14 +2,12 @@ body {
   background: #fff;
 }
 .center {
-  position: relative;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 20%;
 }
 .center2 {
-  position: relative;
   display: block;
   margin-left: auto;
   margin-right: auto;
