@@ -2,14 +2,14 @@ body {
   background: #fff;
 }
 .center {
-  position: absolute;
+  position: relative;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 20%;
 }
 .center2 {
-  position: absolute;
+  position: relative;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -47,7 +47,7 @@ figcaption p {
 }
 
 .hover-animation img {
-  position: relative;
+  position: absolute;
   left: 0;
   width: 350px;
   height: 350px;
