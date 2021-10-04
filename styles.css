@@ -2,12 +2,14 @@ body {
   background: #fff;
 }
 .center {
+  position: absolute;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 20%;
 }
 .center2 {
+  position: absolute;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -38,14 +40,14 @@ figcaption p {
   letter-spacing: 2px;
 }
 .hover-animation {
-  position: relative;
+  position: absolute;
   height: 350px;
   width: 350px;
   margin: 10% auto 0;
 }
 
 .hover-animation img {
-  position: absolute;
+  position: relative;
   left: 0;
   width: 350px;
   height: 350px;
